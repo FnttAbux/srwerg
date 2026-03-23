@@ -1,0 +1,85 @@
+html { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    background: #8c00fffd;
+    overflow:auto;
+}
+
+
+#encabezado {
+    background: #4f0099;
+    color: #fff;
+    padding: 30px 10px;
+    border-bottom: solid #000000;
+}
+#encabezado h1 {
+    margin: 0px;
+    font-size: 60px;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #c8a2e6;
+    text-align: center;
+    padding: 30px 30px 30px;
+    border: #000000 solid;
+}
+
+
+#contenido {
+    text-align: center;
+    max-width: 1100px;
+    flex: 1;
+}
+
+h1 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #4f0099;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    margin: 30px 0;
+}
+
+button {
+    padding: 20px 30px;
+    background-color: #4f0099;
+    border: #000000 solid;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+}
+button a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#tablaPeriodica {
+    width: 85%;
+    max-width: 1000px;
+    margin: 35px auto;
+    margin-top: 0px;
+    display: block;
+    border: 5px solid;
+}
