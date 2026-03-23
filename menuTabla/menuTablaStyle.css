@@ -1,0 +1,853 @@
+html { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    background: #8c00fffd;
+    overflow:auto;
+}
+
+
+#encabezado {
+    background: #4f0099;
+    color: #fff;
+    padding: 30px 10px;
+    border-bottom: solid #000000;
+}
+#encabezado h1 {
+    margin: 0px;
+    font-size: 60px;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contenedor{
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+    background-color: #c8a2e6;
+    text-align: center;
+    align-items: center;
+    padding: 30px 30px 30px;
+    border: #000000 solid;
+}
+
+h1 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin-top: 15px;
+    font-size: 50px;
+}
+h3 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(18, 80px);
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 30px 80px 80px 80px;
+    gap: 10px;
+    position: relative;
+}
+.link {
+    position: absolute;
+    inset: 0;
+}
+.linkPrincipal {
+    display: grid;
+    place-items: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+}
+.linkOfertas {
+    display: grid;
+    place-items: center;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+}
+.elemento {
+    display: grid;
+    place-items: center;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+}
+#imagenElementos {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 0px;
+}
+
+
+
+/* <!-- ALCALINOS --> */
+.hidrogeno {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.litio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.sodio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.potasio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.rubidio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+.cesio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+
+.francio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
+/* <!-- ALCALINOTÉRREOS --> */
+.berilio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.magnesio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.calcio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.estroncio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.bario {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.radio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL ESCANDIO --> */
+.escandio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.itrio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+.lantano {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 4 / 5;
+    grid-row: 9 / 10;
+}
+
+.actinio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 4 / 5;
+    grid-row: 10 / 11;
+}
+
+/* <!-- FAMILIA DEL TITANIO --> */
+.titanio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.circonio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+.hafnio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+}
+
+.rutherfordio {
+    background-color: #000000;
+    z-index: 1;
+    grid-column: 4 / 5;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL VANADIO --> */
+.vanadio {
+    background-color: #000000;
+    grid-column: 5 / 6;
+    grid-row: 4 / 5;
+}
+
+.niobio {
+    background-color: #000000;
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+}
+
+.tantalio {
+    background-color: #000000;
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+}
+
+.dubnio {
+    background-color: #000000;
+    grid-column: 5 / 6;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL CROMO --> */
+.cromo {
+    background-color: #000000;
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+}
+
+.molibdeno {
+    background-color: #000000;
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+}
+
+.wolframio {
+    background-color: #000000;
+    grid-column: 6 / 7;
+    grid-row: 6 / 7;
+}
+
+.seaborgio {
+    background-color: #000000;
+    grid-column: 6 / 7;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL MANGANESO --> */
+.manganeso {
+    background-color: #000000;
+    grid-column: 7 / 8;
+    grid-row: 4 / 5;
+}
+
+.tecnecio {
+    background-color: #000000;
+    grid-column: 7 / 8;
+    grid-row: 5 / 6;
+}
+
+.renio {
+    background-color: #000000;
+    grid-column: 7 / 8;
+    grid-row: 6 / 7;
+}
+
+.bohrio {
+    background-color: #000000;
+    grid-column: 7 / 8;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL HIERRO --> */
+.hierro {
+    background-color: #000000;
+    grid-column: 8 / 9;
+    grid-row: 4 / 5;
+}
+
+.rutenio {
+    background-color: #000000;
+    grid-column: 8 / 9;
+    grid-row: 5 / 6;
+}
+
+.osmio {
+    background-color: #000000;
+    grid-column: 8 / 9;
+    grid-row: 6 / 7;
+}
+
+.hassio {
+    background-color: #000000;
+    grid-column: 8 / 9;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL COBALTO --> */
+.cobalto {
+    background-color: #000000;
+    grid-column: 9 / 10;
+    grid-row: 4 / 5;
+}
+
+.rodio {
+    background-color: #000000;
+    grid-column: 9 / 10;
+    grid-row: 5 / 6;
+}
+
+.iridio {
+    background-color: #000000;
+    grid-column: 9 / 10;
+    grid-row: 6 / 7;
+}
+
+.meitnerio {
+    background-color: #000000;
+    grid-column: 9 / 10;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL NÍQUEL --> */
+.niquel {
+    background-color: #000000;
+    grid-column: 10 / 11;
+    grid-row: 4 / 5;
+}
+
+.paladio {
+    background-color: #000000;
+    grid-column: 10 / 11;
+    grid-row: 5 / 6;
+}
+
+.platino {
+    background-color: #000000;
+    grid-column: 10 / 11;
+    grid-row: 6 / 7;
+}
+
+.darmstadtio {
+    background-color: #000000;
+    grid-column: 10 / 11;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL COBRE --> */
+.cobre {
+    background-color: #000000;
+    grid-column: 11 / 12;
+    grid-row: 4 / 5;
+}
+
+.plata {
+    background-color: #000000;
+    grid-column: 11 / 12;
+    grid-row: 5 / 6;
+}
+
+.oro {
+    background-color: #000000;
+    grid-column: 11 / 12;
+    grid-row: 6 / 7;
+}
+
+.roentgenio {
+    background-color: #000000;
+    grid-column: 11 / 12;
+    grid-row: 7 / 8;
+}
+
+/* <!-- FAMILIA DEL ZINC --> */
+.zinc {
+    background-color: #000000;
+    grid-column: 12 / 13;
+    grid-row: 4 / 5;
+}
+
+.cadmio {
+    background-color: #000000;
+    grid-column: 12 / 13;
+    grid-row: 5 / 6;
+}
+
+.mercurio {
+    background-color: #000000;
+    grid-column: 12 / 13;
+    grid-row: 6 / 7;
+}
+
+.copernicio {
+    background-color: #000000;
+    grid-column: 12 / 13;
+    grid-row: 7 / 8;
+}
+
+/* <!-- TÉRREOS (GRUPO 13) --> */
+.boro {
+    background-color: #000000;
+    grid-column: 13 / 14;
+    grid-row: 2 / 3;
+}
+
+.aluminio {
+    background-color: #000000;
+    grid-column: 13 / 14;
+    grid-row: 3 / 4;
+}
+
+.galio {
+    background-color: #000000;
+    grid-column: 13 / 14;
+    grid-row: 4 / 5;
+}
+
+.indio {
+    background-color: #000000;
+    grid-column: 13 / 14;
+    grid-row: 5 / 6;
+}
+
+.talio {
+    background-color: #000000;
+    grid-column: 13 / 14;
+    grid-row: 6 / 7;
+}
+
+.nihonio {
+    background-color: #000000;
+    grid-column: 13 / 14;
+    grid-row: 7 / 8;
+}
+
+/* <!-- CARBONOIDEOS (GRUPO 14) --> */
+.carbono {
+    background-color: #000000;
+    grid-column: 14 / 15;
+    grid-row: 2 / 3;
+}
+
+.silicio {
+    background-color: #000000;
+    grid-column: 14 / 15;
+    grid-row: 3 / 4;
+}
+
+.germanio {
+    background-color: #000000;
+    grid-column: 14 / 15;
+    grid-row: 4 / 5;
+}
+
+.estano {
+    background-color: #000000;
+    grid-column: 14 / 15;
+    grid-row: 5 / 6;
+}
+
+.plomo {
+    background-color: #000000;
+    grid-column: 14 / 15;
+    grid-row: 6 / 7;
+}
+
+.flerovio {
+    background-color: #000000;
+    grid-column: 14 / 15;
+    grid-row: 7 / 8;
+}
+
+/* <!-- NITROGENOIDEOS (GRUPO 15) --> */
+.nitrogeno {
+    background-color: #000000;
+    grid-column: 15 / 16;
+    grid-row: 2 / 3;
+}
+
+.fosforo {
+    background-color: #000000;
+    grid-column: 15 / 16;
+    grid-row: 3 / 4;
+}
+
+.arsenico {
+    background-color: #000000;
+    grid-column: 15 / 16;
+    grid-row: 4 / 5;
+}
+
+.antimonio {
+    background-color: #000000;
+    grid-column: 15 / 16;
+    grid-row: 5 / 6;
+}
+
+.bismuto {
+    background-color: #000000;
+    grid-column: 15 / 16;
+    grid-row: 6 / 7;
+}
+
+.moscovio {
+    background-color: #000000;
+    grid-column: 15 / 16;
+    grid-row: 7 / 8;
+}
+
+/* <!-- ANFÍGENOS (GRUPO 16) --> */
+.oxigeno {
+    background-color: #000000;
+    grid-column: 16 /17;
+    grid-row: 2 / 3;
+}
+
+.azufre {
+    background-color: #000000;
+    grid-column: 16 / 17;
+    grid-row: 3 / 4;
+}
+
+.selenio {
+    background-color: #000000;
+    grid-column: 16 / 17;
+    grid-row: 4 / 5;
+}
+
+.telurio {
+    background-color: #000000;
+    grid-column: 16 / 17;
+    grid-row: 5 / 6;
+}
+
+.polonio {
+    background-color: #000000;
+    grid-column: 16 / 17;
+    grid-row: 6 / 7;
+}
+
+.livermorio {
+    background-color: #000000;
+    grid-column: 16 / 17;
+    grid-row: 7 / 8;
+}
+
+/* <!-- HALÓGENOS (GRUPO 17) --> */
+.fluor {
+    background-color: #000000;
+    grid-column: 17 / 18;
+    grid-row: 2 / 3;
+}
+
+.cloro {
+    background-color: #000000;
+    grid-column: 17 / 18;
+    grid-row: 3 / 4;
+}
+
+.bromo {
+    background-color: #000000;
+    grid-column: 17 / 18;
+    grid-row: 4 / 5;
+}
+
+.yodo {
+    background-color: #000000;
+    grid-column: 17 / 18;
+    grid-row: 5 / 6;
+}
+
+.astato {
+    background-color: #000000;
+    grid-column: 17 / 18;
+    grid-row: 6 / 7;
+}
+
+.teneso {
+    background-color: #000000;
+    grid-column: 17 / 18;
+    grid-row: 7 / 8;
+}
+
+/* <!-- GASES NOBLES (GRUPO 18) --> */
+.helio {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 1 / 2;
+}
+
+.neon {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 2 / 3;
+}
+
+.argon {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 3 / 4;
+}
+
+.kripton {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 4 / 5;
+}
+
+.xenon {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 5 / 6;
+}
+
+.radon {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 6 / 7;
+}
+
+.oganeson {
+    background-color: #000000;
+    grid-column: 18 / 19;
+    grid-row: 7 / 8;
+}
+
+/* <!-- LANTÁNIDOS (fila 9) --> */
+.cerio {
+    background: #000000;
+    grid-column: 5 / 6;
+    grid-row: 9 / 10;
+}
+
+.praseodimio {
+    background: #000000;
+    grid-column: 6 / 7;
+    grid-row: 9 / 10;
+}
+
+.neodimio {
+    background: #000000;
+    grid-column: 7 / 8;
+    grid-row: 9 / 10;
+}
+
+.prometio {
+    background: #000000;
+    grid-column: 8 / 9;
+    grid-row: 9 / 10;
+}
+
+.samario {
+    background: #000000;
+    grid-column: 9 / 10;
+    grid-row: 9 / 10;
+}
+
+.europio {
+    background: #000000;
+    grid-column: 10 / 11;
+    grid-row: 9 / 10;
+}
+
+.gadolinio {
+    background: #000000;
+    grid-column: 11 / 12;
+    grid-row: 9 / 10;
+}
+
+.terbio {
+    background: #000000;
+    grid-column: 12 / 13;
+    grid-row: 9 / 10;
+}
+
+.disprosio {
+    background: #000000;
+    grid-column: 13 / 14;
+    grid-row: 9 / 10;
+}
+
+.holmio {
+    background: #000000;
+    grid-column: 14 / 15;
+    grid-row: 9 / 10;
+}
+
+.erbio {
+    background: #000000;
+    grid-column: 15 / 16;
+    grid-row: 9 / 10;
+}
+
+.tulio {
+    background: #000000;
+    grid-column: 16 / 17;
+    grid-row: 9 / 10;
+}
+
+.iterbio {
+    background: #000000;
+    grid-column: 17/18;
+    grid-row: 9 / 10;
+}
+
+.lutecio {
+    background: #000000;
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+}
+
+/* <!-- ACTÍNIDOS (fila 10) --> */
+.torio {
+    background: #000000;
+    grid-column: 5 / 6;
+    grid-row: 10 / 11;
+}
+
+.protactinio {
+    background: #000000;
+    grid-column: 6 / 7;
+    grid-row: 10 / 11;
+}
+
+.uranio {
+    background: #000000;
+    grid-column: 7 / 8;
+    grid-row: 10 / 11;
+}
+
+.neptunio {
+    background: #000000;
+    grid-column: 8 / 9;
+    grid-row: 10 / 11;
+}
+
+.plutonio {
+    background: #000000;
+    grid-column: 9 / 10;
+    grid-row: 10 / 11;
+}
+
+.americio {
+    background: #000000;
+    grid-column: 10 / 11;
+    grid-row: 10 / 11;
+}
+
+.curio {
+    background: #000000;
+    grid-column: 11 / 12;
+    grid-row: 10 / 11;
+}
+
+.berkelio {
+    background: #000000;
+    grid-column: 12 / 13;
+    grid-row: 10 / 11;
+}
+
+.californio {
+    background: #000000;
+    grid-column: 13 / 14;
+    grid-row: 10 / 11;
+}
+
+.einstenio {
+    background: #000000;
+    grid-column: 14 / 15;
+    grid-row: 10 / 11;
+}
+
+.fermio {
+    background: #000000;
+    grid-column: 15 /16;
+    grid-row: 10 / 11;
+}
+
+.mendelevio {
+    background: #000000;
+    grid-column: 16 / 17;
+    grid-row: 10 / 11;
+}
+
+.nobelio {
+    background: #000000;
+    grid-column: 17 / 18;
+    grid-row: 10 / 11;
+}
+
+.lawrencio {
+    background: #000000;
+    grid-column: 3 /4 ;
+    grid-row: 7 / 8;
+}
+
+.principal {
+    background-color: #ffffff;
+    z-index: 1;
+    grid-column: 1 / 3;
+    grid-row: 10 / 11;
+    border: #000000 solid;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
